@@ -1,0 +1,113 @@
+body,
+html {
+    max-height: 100%;
+}
+
+div {
+    outline-style: solid;
+    outline-color: steelblue;
+    outline-width: 4px;
+    outline-offset: 10px;
+    /* outline: 10px solid red; */
+    /* display: inline; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: steelblue;
+    border-radius: 10px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    width: 40%;
+    min-width: 20%;
+    max-height: 100%;
+    /* float: left; */
+    color: blue;
+    text-align: left;
+    /* text-decoration: underline; */
+    text-transform: initial;
+    text-indent: 20px;
+    /* letter-spacing: 3px; */
+    /* line-height: 20px; */
+    direction: ltr;
+    /* word-spacing: 2px; */
+    /* text-shadow: 2px 2px aqua; */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    font-size: 16px;
+    /* font-weight: bolder; */
+    font-variant: normal
+}
+
+#example {
+    color: red;
+    margin: auto;
+    text-align: center;
+}
+
+#icon {
+    font-size: 32px;
+    color: slateblue;
+}
+
+span {
+    display: inline-block;
+}
+
+p {
+    outline-style: solid;
+    outline-color: steelblue;
+    outline-width: 4px;
+    outline-offset: 10px;
+}
+
+/* a {
+    color: white;
+    text-decoration: none;
+    background-color: steelblue;
+    border-radius: 4px;
+    padding: 14px 20px;
+}
+
+
+a:visited {
+    background-color: green;
+} */
+
+a.highlight:hover {
+    text-decoration: underline;
+    background-color: blue;
+} 
+
+a:active {
+    background-color: red;
+} 
+
+ol {
+    background-color: red;
+    color: blue;
+}
+
+ul {
+    background-color: steelblue;
+    color: white;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: inside;
+    /* list-style-image: url("background.jpg") */
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+div:hover {
+    background-color: steelblue;
+}

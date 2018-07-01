@@ -1,0 +1,147 @@
+/* input[type] {
+    width: 100%;
+} */
+
+input[type="text"] {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: steelblue;
+    /* border-radius: 5px; */
+}
+
+/* input[type="text"]:hover {
+    background-color: seagreen;
+} */
+
+/* input[type="text"]:focus {
+    background-color: steelblue;
+} */
+
+/* input[id~="Name"] {
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+/* 
+
+input[id|="first"] {
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+/* 
+input[id^="name"] {
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+/* input[id$="first"]{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+} */
+
+button {
+    background-color: steelblue;
+    color: white;
+    border: none;
+    margin: 4px 2px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+/* button:hover {
+    opacity: 0.5;
+} */
+
+.mainMenu {
+    width: 200px;
+}
+
+.mainMenu:hover .menus {
+    display: block;
+}
+
+.menus {
+    display: none;
+    background-color: wheat;
+}
+
+.menus a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+.menus a:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+.gallery {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: steelblue;
+    width: 30%;
+    overflow: auto;
+    margin: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: steelblue;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
+    width: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.navbar li a:hover {
+    color: white;
+    background: blue;
+}
+
+.hornavbar {
+    list-style-type: none;
+    background-color: steelblue;
+    margin: 0;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+
+.hornavbar li {
+    display: inline;
+}
+
+.hornavbar li a {
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hornavbar li a:hover {
+    color: white;
+    background-color: black;
+}

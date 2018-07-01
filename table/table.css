@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    height: 30px;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+/* 
+tr:hover {
+    background-color: wheat;
+} */
+
+tr:nth-child(odd) {
+    background-color: wheat;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+div{
+    overflow-x: auto;
+}
+/* 
+td {
+    /* text-align: center; 
+} */
+/* 
+td {
+    height: 30px;
+    vertical-align: bottom;
+    padding: 15px;
+}
+
+table,
+th,
+td {
+    border-style: solid;
+} */

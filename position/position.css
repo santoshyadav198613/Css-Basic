@@ -1,0 +1,52 @@
+body {
+    height:  600px;
+}
+
+div.static {
+    border-style: solid;
+    border-color: steelblue;
+    border-radius: 4px;
+    position: static;
+    width: 40%;
+    left: 40px;
+}
+
+.relative {
+    border-style: solid;
+    border-color: steelblue;
+    border-radius: 4px;
+    position: relative;
+    /* width: 40%; */
+    /* left: 40px;
+    top : 50px;
+    right: 100px;
+    bottom: 10px; */
+}
+
+.fixed {
+    border-style: solid;
+    border-color: steelblue;
+    border-radius: 4px;
+    position: fixed;
+    width: 40%;
+    right: 0;
+    bottom: 0;
+}
+
+.absolute {
+    border-style: solid;
+    border-color: steelblue;
+    border-radius: 4px;
+    position: absolute;
+    /* width: 40%; */
+    left: 40px;
+    top: 50px;
+}
+
+.sticky {
+    border-style: solid;
+    border-color: steelblue;
+    border-radius: 4px;
+    position: sticky;
+    bottom: 0;
+}

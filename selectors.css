@@ -1,0 +1,15 @@
+div, p {
+    background-color: red;
+}
+
+#helloworld {
+    background-color: grey;
+}
+
+#css {
+    background-color: aqua;
+}
+
+.background {
+    background-color: steelblue;
+}

@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+}
+
+
+.header {
+    background-color: wheat;
+    text-align: center;
+    padding: 10px;
+}
+
+.hornavbar {
+    list-style-type: none;
+    background-color: steelblue;
+    margin: 0;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+.hornavbar li {
+    display: inline;
+}
+
+.hornavbar li a {
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hornavbar li a:hover {
+    color: white;
+    background-color: black;
+}
+
+.row {
+    height: 80%;
+}
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.content {
+    width: 48%;
+    float: left;
+    margin: 10px;
+}
+
+.footer {
+    background-color: wheat;
+    text-align: center;
+    padding: 10px;
+}

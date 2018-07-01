@@ -1,0 +1,8 @@
+body {
+    counter-reset: Page;
+}
+
+h2::before {
+    counter-increment: Page;
+    content: "Page" counter(Page) "-";
+}
